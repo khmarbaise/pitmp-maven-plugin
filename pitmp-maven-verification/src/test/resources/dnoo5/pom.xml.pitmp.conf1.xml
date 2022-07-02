@@ -20,7 +20,6 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <default.encoding>UTF-8</default.encoding>
   </properties>
 
   <dependencyManagement>
