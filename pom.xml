@@ -16,7 +16,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <github.global.server>github</github.global.server>
-    <pit.version>1.4.7</pit.version>
+    <pit.version>1.9.0</pit.version>
     <descartes.version>1.2.5</descartes.version>
     <maven.compiler.release>8</maven.compiler.release>
   </properties>
@@ -195,7 +195,11 @@
         <artifactId>pitest-maven</artifactId>
         <version>${pit.version}</version>
       </dependency>
-
+      <dependency>
+        <groupId>org.pitest</groupId>
+        <artifactId>pitest-entry</artifactId>
+        <version>${pit.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
   <modules>
