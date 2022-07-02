@@ -14,10 +14,6 @@
 
 	<name>${project.groupId}:${project.artifactId}</name>
 	<description>Maven plugin to handle multi-module project for Pitest</description>
-	<url>http://maven.apache.org</url>
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
 
 	<dependencies>
 		<dependency>
@@ -234,13 +230,6 @@
 							<nexusUrl>https://oss.sonatype.org/</nexusUrl>
 							<autoReleaseAfterClose>true</autoReleaseAfterClose>
 						</configuration>
-						<dependencies>
-							<dependency>
-								<groupId>org.apache.maven.wagon</groupId>
-								<artifactId>wagon-ssh</artifactId>
-								<version>2.12</version>
-							</dependency>
-						</dependencies>
 					</plugin>
 
 					<plugin>

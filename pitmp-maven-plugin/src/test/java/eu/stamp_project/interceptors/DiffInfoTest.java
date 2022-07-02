@@ -8,9 +8,7 @@ class DiffInfoTest {
 
 	@Test
 	void testFromFileWithANotExistingFile() {
-		assertThrows(RuntimeException.class, () -> {
-			DiffInfo.fromFile("notExistingPath");
-		});
+		assertThrows(RuntimeException.class, () -> DiffInfo.fromFile("notExistingPath"));
 	}
 
 }
